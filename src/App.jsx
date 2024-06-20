@@ -106,7 +106,7 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-900 text-white">
+    <div className="min-h-screen flex items-center justify-center bg-gray-900 text-white px-4">
       <div className="bg-white bg-opacity-10 backdrop-blur-md p-8 rounded shadow-md w-full max-w-3xl">
         <h1 className="text-3xl font-bold mb-6">Job Application</h1>
         {showSummary ? (
