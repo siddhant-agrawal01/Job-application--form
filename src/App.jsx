@@ -167,7 +167,7 @@ const App = () => {
                   name="fullName"
                   value={formData.fullName}
                   onChange={handleChange}
-                  placeholder="John Doe"
+                  placeholder="Siddhant Agrawal"
                   className="w-full p-2 border border-gray-300 rounded mt-1 bg-gray-800 text-white focus:border-blue-500 focus:ring focus:ring-blue-200 transition"
                 />
                 {errors.fullName && (
